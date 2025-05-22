@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "displayName": "testingPolcy",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "metadata": {
+      "version": "1.0.0",
+      "category": "testingPolicy",
+      "createdBy": "c619a94e-c030-4a2f-9f47-d296c54ece25",
+      "createdOn": "2025-05-22T18:40:02.9124568Z",
+      "updatedBy": null,
+      "updatedOn": null
+    },
+    "version": "1.0.0",
+    "parameters": {},
+    "policyRule": {
+      "if": {
+        "allOf": [
+          {
+            "field": "type",
+            "equals": "Microsoft.Compute/virtualMachines"
+          },
+          {
+            "field": "location",
+            "notEquals": "westus2"
+          }
+        ]
+      },
+      "then": {
+        "effect": "Deny"
+      }
+    },
+    "versions": [
+      "1.0.0"
+    ]
+  },
+  "id": "/subscriptions/eca410d1-a4cf-47e5-9060-f48a70361368/providers/Microsoft.Authorization/policyDefinitions/24be8443-ccd4-43d5-9875-2c0cb3205e27",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "24be8443-ccd4-43d5-9875-2c0cb3205e27",
+  "systemData": {
+    "createdBy": "kristirodos@gmail.com",
+    "createdByType": "User",
+    "createdAt": "2025-05-22T18:40:02.8855769Z",
+    "lastModifiedBy": "kristirodos@gmail.com",
+    "lastModifiedByType": "User",
+    "lastModifiedAt": "2025-05-22T18:40:02.8855769Z"
+  }
+}
