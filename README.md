@@ -1,6 +1,5 @@
 # JSON-policy-in-Azure
-This JSON code will block any VM creation otuside the specified location in the code
-I created this policy is azure portal. I wanted to test some things I learned online and what better way to do so than putting my knowledge to the test.
+I created this policy in the Azure portal. I wanted to test some things I learned online and what better way to do so than putting my knowledge to the test.
 
 What I did:
 - In my Azure Portla I went to Azure Policy
