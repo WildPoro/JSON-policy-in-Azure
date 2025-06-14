@@ -3,7 +3,7 @@ I created this policy in the Azure portal. I wanted to test some things I learne
 
 What I did:
 - In my Azure Portla I went to Azure Policy
-- Under "Authoring" on the left pane, I clicked "Dedinitions"
+- Under "Authoring" on the left pane, I clicked "Definitions"
 - Clicked "Policy Definitions"
 - Defined the location, which in my case is my subscription, meaning no matter the resource group as long as it's under the same subscription the policy of denying VMs outside the allowed location will apply
 - Defined a name for my policy
